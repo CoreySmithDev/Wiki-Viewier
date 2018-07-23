@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Wikipedia Viewer</title>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.js"></script>
+	<link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/weather-icons/2.0.9/css/weather-icons.css" />
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.3/js/bootstrap.min.js" integrity="sha384-a5N7Y/aK3qNeh15eJKGWxsqtnX/wWdSZSKp+81YjTmS15nvnvxKHuzaWwXHDli+4" crossorigin="anonymous"></script>
+	<link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.3/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zug+QiDoJOrZ5t4lssLdxGhVrurbmBWopoEl+M6BdEfwnCJZtKxi1KgxUyJq13dy" crossorigin="anonymous">
+	<link type="text/css" rel="stylesheet" href="styles.css">
+	<script src="scripts.js"></script>
+</head>
+<body>
+	<div class="container text-center">
+		<h2>Corey Wikipedia API Search</h2>
+		<p>
+			<a href="https://www.mediawiki.org/wiki/Special:Random:">Click to show a random article</a>
+		</p>
+		<p>Or Search Below</p>
+		<input type="text" id="searchTerm" placeholder="Search Wikipedia" style="font-family: Arial, FontAwesome">
+		<button id="search" type="button" class="btn btn-primary">Click to Search</button>
+		<ul id="output">
+	
+		</ul>
+	</div>
+</body>
+</html>
